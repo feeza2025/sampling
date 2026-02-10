@@ -40,30 +40,112 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+The objectives of this survey are:
+1.	To gather data to assess employee satisfaction among entry and lower-level positions, with the aim of identifying potentials factors contributing for high turnover 
+2.	Collect suggestions on changes that could help improve employee satisfaction
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+
+Target Population
+Employees in entry-level and lower-level positions in the organization
+
+Sampling Frame
+The list of employees in company’s employee directory
+
+Sampling units and observational units
+Employees
+
+Overall Sampling Strategy
+•	Use stratified sampling to ensure all departments are covered. Leverage existing data in employee directory to help determine the strata.
+•	Calculate sampling size based on precision and confidence level. There are formula on how the sampling size could be determined and there are also tools online, for example, https://epitools.ausvet.com.au/oneproportion
+•	Allocating sample size proportionate to each stratum
+•	Perform poststratification if necessary
+
+Other Notes:
+•	Determine confidence level and precision with team. A preliminary survey review may also be beneficial.
+•	Survey mode could be online surveys
+•	Survey data should be kept confidential. It should be noted that there could be opportunity for figuring out who a respondent is by looking at the job title and age range.
+•	Responding to the survey or answering any of the questions is voluntary
+
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your job title?
+
+2. What is your age?
+•	19 and younger
+•	20-24
+•	25–29
+•	30–34
+•	35–39
+•	40–44
+•	45–49
+•	50–54
+•	55–59
+•	60–64
+•	65 or older
+•	Prefer not to disclose
+
+3. How long have you been in your current role at this company?
+
+4. How long do you see yourself working for this company in the future?
+
+5. How satisfied or dissatisfied are you with your current role?
+•	Not at all satisfied
+•	Slightly satisfied
+•	Moderately satisfied
+•	Very satisfied
+•	Extremely satisfied
+
+6. How satisfied or dissatisfied are you with the work-life balance in your current role?
+•	Not at all satisfied
+•	Slightly satisfied
+•	Moderately satisfied
+•	Very satisfied
+•	Extremely satisfied
+
+7. How much do you agree or disagree that the company provide opportunities for your career growth?
+•	Strongly disagree
+•	Somewhat disagree
+•	Neither agree nor disagree
+•	Somewhat agree
+•	Strongly agree
+
+8. How satisfied or dissatisfied are you with your compensation?
+•	Not at all satisfied
+•	Slightly satisfied
+•	Moderately satisfied
+•	Very satisfied
+•	Extremely satisfied
+
+9. How satisfied or dissatisfied are you with your team culture?
+•	Not at all satisfied
+•	Slightly satisfied
+•	Moderately satisfied
+•	Very satisfied
+•	Extremely satisfied
+
+10. Which one of the following areas would you most like to see improved in your current role?
+•	Work-life balance
+•	Compensation
+•	Career growth opportunities
+•	Training
+•	Work environment
+•	Organization culture
+•	Team culture
+•	Other (please specify): ________________
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +153,79 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1.	Sample type
+Multistage sampling:
+    1. Stratification: the stratification is done at the province/ census metropolitan area (CMA) level
+    2. All respondents who are not volunteers are randomly divided into 2 groups. One group does a long interview while the other does a short interview ('rejective sampling')
+
+Sampling Units - 2 stage design
+    1. Groups of telephone numbers
+    2. Individuals within the identified households. Only select one individual per household.
+
+2.	Sample size
+    For each province, the minimum sample size were determined that would ensure certain estimates would have acceptable sampling variability at the stratum level. A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3.	Target population
+    All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+
+4.	Sampling frame
+    Landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). 
+
+5.	Survey mode(s)
+    Electronic questionnaire or through CATI (computer assisted telephone interviewing)
+
+6.	Timeline
+    Reference period: Past 12 months preceding interview date
+    ollection period: 2018-09-04 to 2018-12-28
+
+7.	Response rate
+    The overall response rate is 41.9%.
+
+8.	Weights
+    The number of persons represented by a given respondent is usually known as the weight or weighting factor. 
+    
+        • Estimation weights: Survey estimates were weighted to account for non-response cases. Estimates based on the survey data are also adjusted (by weighting) so that they are representative of the target population with regard to certain characteristics (each month we have independent estimates for various age-sex groups by province). 
+
+        • Bootstrap weights have been created for the purpose of design-based variance estimation.
+
+9.	Data processing
+    All survey records were subjected to computer edits throughout the course of the interview.  Edits were performed automatically and manually at various stages of processing at macro and micro levels. Family relationships were checked to ensure the integrity of matrix data. A series of checks were done to ensure the consistency of survey data. Flow edits were used to ensure respondents followed the correct path and fix off-path situations. Error detection was done through edits programmed into the CATI system.Data edits was also done at the head office.
+
+10.	Cleaning, imputation, etc
+    Cleaning
+    All survey records were subjected to computer edits throughout the course of the interview. The CATI system principally edited the flow of the questionnaire and identified out of range values. If the interviewer was unable to correctly resolve the detected errors, the interviewer bypassed the edit and forwarded the data to head office for resolution. All interviewer comments were reviewed and taken into account by head office editing.
+
+    Imputation
+    • Except in a few cases, all imputations were made using donor records selected through a score function. 
+    • Where donor imputation could not be used, mean imputation among a pool of donors was used.
+    • Imputation were carried out in nine steps:
+        1. The first step consisted of imputing personal income and family income.
+        2. The next three steps involved imputing the formal volunteering variables
+        3. Steps five and six were imputing the informal volunteering variables
+        4. The last three steps involved imputing variables in the donation file and the solicitation methods
+
+11.	Sources of error
+    • Sampling error because a sample of the population is surveyed (precision error)
+    • Non-Sampling Error
+        Coverage Error
+        Households without telephones, as well as households with telephone services not covered by the current frame, represent a part of the target population that was excluded from the surveyed population.
+
+        Non-response bias
+        Some non-response occurred at the household level, and some at the individual level.
+        
+
+12.	Limitations, known biases, etc
+    • Households without telephones, as well as households with telephone services not covered by the current frame, were excluded from the survey population.
+    • Questions relating to income show rather high non-response rates, the incomes reported by respondents are usually rough estimates. For cases where respondents did not object, to collect this information, personal tax records and tax records for all household members were linked.
+
+13.	Link to documentation and any additional sources used
+Mostly for Part A:
+    1. https://www.surveymonkey.com/learn/survey-best-practices/likert-scale/
+    2. https://www.surveymonkey.com/learn/survey-best-practices/gathering-demographic-information-from-surveys/
+    3. https://epitools.ausvet.com.au/oneproportion
+    4. https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
+
 ```
 
 ## Rubric
